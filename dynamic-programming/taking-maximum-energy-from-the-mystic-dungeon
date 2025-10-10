@@ -1,0 +1,19 @@
+// Problem: Taking Maximum Energy From the Mystic Dungeon
+// Link: https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon
+// Approach: DP, O(n)
+
+class Solution {
+public:
+    int maximumEnergy(vector<int>& energy, int k) {
+        int maxEnergy = numeric_limits<int>::min();
+        vector<int> dp(energy.size(), 0);
+
+        for(int i = energy.size() - 1; i >= 0; i--) {
+            auto prevValue = i + k >= dp.size() ? 0 : dp[i + k];
+            dp[i] = energy[i] + prevValue;
+            maxEnergy = max(maxEnergy, dp[i]);
+        }
+
+        return maxEnergy;
+    }
+};
