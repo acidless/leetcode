@@ -3,6 +3,10 @@
 This repository contains my personal solutions to various **LeetCode** problems.  
 It serves both as a **record of my algorithmic progress** and a **reference** for improving problem-solving skills, code clarity, and performance optimization.
 
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/acidless" height="160" />
+</p>
+
 ## 📂 Structure
 Solutions are organized by topic for easy navigation.
 
