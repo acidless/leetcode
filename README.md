@@ -25,4 +25,4 @@ Each file includes:
 Check out my [LeetCode profile](https://leetcode.com/u/acidless/) for stats and daily challenges.
 
 ## 🛠️ Tech Stack
-Language: C++, JavaScript
+Language: C++, JavaScript, Python
