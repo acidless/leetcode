@@ -1,6 +1,6 @@
 // Problem: Invert Binary Tree
 // Link: https://leetcode.com/problems/invert-binary-tree
-// Approach: O(n)
+// Approach: Recursive, O(n)
 
 
 /**
