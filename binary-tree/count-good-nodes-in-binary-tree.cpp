@@ -1,4 +1,4 @@
-// Problem: Diameter of Binary Tree
+// Problem: Count Good Nodes in Binary Tree
 // Link: https://leetcode.com/problems/count-good-nodes-in-binary-tree
 // Approach: Recursive, O(n)
 
